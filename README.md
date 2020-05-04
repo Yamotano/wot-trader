@@ -7,6 +7,12 @@ Trading bot for Binance Futures
 A simple bot that tracks the Money Flow Index (MFI) technical indicator and
 trades based on sub 1-minute timeframes. Executes longs only.
 
+Implements the classic 'buy low sell high' strategy and looks at the value of the MFT, and its 1st and 
+2nd finite differences to determine when an MFI minimum (buy) and MFI maximum (sell) has beem reached.
+
+Also compute the Value-at-risk (VaR) for the last 100 minutes and set an initial stop loss at the 95% VaR
+loss level.
+
 #### Note:
 1. You must provide your own Binance API key and API secret in the script file
 2. You must also install the dependencies such as the Binance Futures Python API and TA-Lib
