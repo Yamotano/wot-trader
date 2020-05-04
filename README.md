@@ -2,10 +2,10 @@
 
 ![](https://miro.medium.com/max/890/0*cAcircdzEscM4Rk9.jpg)
 
-A Trading bot for Binance Futures
+Trading bot for Binance Futures
 
 A simple bot that tracks the Money Flow Index (MFI) technical indicator and
-trades based on sub 1-minute timeframes
+trades based on sub 1-minute timeframes. Executes longs only.
 
 #### Note:
 1. You must provide your own Binance API key and API secret in the script file
