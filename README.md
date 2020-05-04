@@ -10,7 +10,7 @@ trades based on sub 1-minute timeframes. Executes longs only.
 Implements the classic 'buy low sell high' strategy and looks at the value of the MFI, and its 1st and 
 2nd finite differences to determine when an MFI minimum (buy) and MFI maximum (sell) has beem reached.
 
-Also compute the Value-at-risk (VaR) for the last 100 minutes and set an initial stop loss at the 95% VaR
+Also computes the Value-at-risk (VaR) for the last 100 minutes and set an initial stop loss at the 95% VaR
 loss level.
 
 #### Note:
